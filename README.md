@@ -25,8 +25,8 @@ This repository contains **project documentation** covering all major phases of 
 | [`2. Project Plan & Gantt Chart`](./Project_Plan_Gantt_Chart.pdf) | Provides a structured plan with defined milestones and a visual Gantt chart timeline. |
 | [`3. Weekly Progress Report`](./Weekly_Progress_Report.pdf) | Chronicles weekly updates including completed tasks, blockers, and next objectives. |
 | [`4. System Design Document`](./System_Design_Document.pdf) | Details architecture diagrams, database design (ERD), UML models, and system components. |
+| [`5. Test Plan`](./Test_Plan/) | Contains comprehensive testing documentation including test strategy, test cases, and validation procedures. |
 
----
 
 ## 🛠️ System Highlights
 
@@ -56,6 +56,12 @@ This repository contains **project documentation** covering all major phases of 
 - Covers **architecture diagrams**, **ER diagrams**, **sequence diagrams**, and **component design**.  
 - Provides a clear blueprint for implementation and integration.
 
+### 5️⃣ Test Plan  
+- Comprehensive **testing strategy** covering all testing phases  
+- Detailed **test cases** for functional, integration, and performance testing  
+- **Test data management** and **defect tracking** procedures  
+- **Acceptance criteria** and quality gates for project sign-off
+
 ---
 
 ## 🧮 Tech Stack Summary
@@ -75,3 +81,17 @@ This repository contains **project documentation** covering all major phases of 
 1. Clone the repository:  
    ```bash
    git clone https://github.com/pandya-manan/automotive_service_project_docs.git
+
+---
+
+## 🎯 Testing Approach
+
+The testing strategy ensures comprehensive validation of the Automotive Service Centre Management System:
+
+- **Unit Testing**: Individual component validation
+- **Integration Testing**: Module interaction verification  
+- **System Testing**: End-to-end workflow validation
+- **Performance Testing**: Load and stress testing
+- **User Acceptance Testing**: Stakeholder validation against business requirements
+
+All test artifacts are maintained in the `Test_Plan` folder for complete test coverage and quality assurance.
